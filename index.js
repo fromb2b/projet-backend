@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.get("/", (req, res) => res.json("hello"));
 
 app.get("/crimes_by_wards", db.getCrimesByWards);
-app.get("/:x", db.getRandom);
+//app.get("/:x", db.getRandom);
 app.post("/random", db.getRandomQuery);
 app.listen(port, () => {
   console.log(`App running on port ${port}.`);
