@@ -55,5 +55,5 @@ const getCrimesByStreet=(req,res)=>{
 module.exports = {
   getCrimesByWards,
   getRandomQuery,
-  getRandom,
+  //getRandom,
 };
